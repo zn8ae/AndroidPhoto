@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "827726055382",
+    "firebase_url": "https://deft-velocity-182100.firebaseio.com",
+    "project_id": "deft-velocity-182100",
+    "storage_bucket": "deft-velocity-182100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827726055382:android:867141a57d9ba6c6",
+        "android_client_info": {
+          "package_name": "com.example.zihanni.photoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827726055382-vuki4lgtrc6kb5bsfe77at5p6rj1u02l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ0YVVFERY7fLgfPT5mPPL6Ce7pFqJYno"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ganhong.photos.SearchActivity">
+
+    <LinearLayout
+        android:id="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/kkkk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ccc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:hint="Enter query" />
+
+            <Button
+                android:id="@+id/ddd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="search" />
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:checked="false"
+            android:text="   Is Private?"
+            android:layout_below="@+id/kkkk"/>
+
+        <ImageView
+            android:id="@+id/eee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/fff" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
