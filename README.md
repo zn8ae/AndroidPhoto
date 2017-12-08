@@ -1,4 +1,3 @@
-# AndroidPhotoApp
 # AndroidPhoto
 
 An photo gallery app using Firebase
